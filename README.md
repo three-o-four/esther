@@ -6,9 +6,6 @@ Esther consumes the [quotable API](https://github.com/lukePeavey/quotable)
 
 1. Make sure you have [jq](https://stedolan.github.io/jq/) installed on your machine
 2. Set [twurl](https://developer.twitter.com/en/docs) up
-3. Create a virtual environment: `python -m virtualenv venv`
-4. Activate the virtual environment: `source venv/bin/activate`
-5. Install requirements: `pip install -r requirements.txt`
-6. Run Esther: `python app.py`
-7. Deactivate virtual environment: `deactivate`
+3. Give Esther executable permissions: `chmod +x esther.sh`
+4. You're good to go, setup a cron to execute esther
 
